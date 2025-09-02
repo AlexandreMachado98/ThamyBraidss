@@ -1,0 +1,39 @@
+// === Imports SCSS ===
+@use "partials/colors" as *;   // variáveis globais
+@use "partials/header";
+@use "partials/layout";
+
+// === Reset global ===
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  background-color: $primary-dark; // direto, sem namespace
+  color: $back-dark;
+  width: 100%;
+  min-height: 100vh;
+}
+
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
