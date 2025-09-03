@@ -199,13 +199,9 @@
   transition: transform 0.2s;
 }
 
-.haircut img{
-    transform: scale(1.2);
-    z-index: 1;
-}
-
 .haircut img:hover{
     transform: scale(1.2);
+    z-index: 1;
 }
 
 .haircut-info {
@@ -310,3 +306,4 @@
     
 
  }
+
