@@ -204,6 +204,10 @@
     z-index: 1;
 }
 
+.haircut img:hover{
+    transform: scale(1.2);
+}
+
 .haircut-info {
   flex: 1;                        // ocupa o restante do espaço no card
   display: flex;
@@ -304,4 +308,5 @@
         }
     }
     
+
  }
